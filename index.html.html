@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            margin-top: 20px;
+            margin-left: 300px;
+            width: 700px;
+            height: 600px;
+            background-color:whitesmoke;
+            border: 2px solid black;
+        } 
+        div form{
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+        input[type="text"],
+        input[type="email"] ,
+        input[type="date"],
+        input[type="number"]{
+            width: 200px; /* Adjust width */
+            height: 30px; /* Adjust height */
+            padding: 10px; /* Optional: Adds padding inside the input field */
+            font-size: 16px;
+        }
+        select{
+            width: 400px; /* Adjust width */
+            height: 30px; /* Adjust height */
+         /* Optional: Adds padding inside the input field */
+            
+        }
+        input[type="submit"]{
+            width:200px;
+            height:40px;
+            background-color: blue;  
+            color: white;
+            font-size: 20px;
+         }
+    
+    </style>
+</head>
+<body bgcolor="#f3455">
+
+        <div class="main">
+            <form>
+
+                <h1> Registration Form</h1>
+                First  Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Last Name<br>
+                <input type="text"  size="30" placeholder="First Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+                <input type="text"  size="30" placeholder="last Name"><br><br><br>
+                Birthday  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gender<br>
+                <input type="date" size="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="Male" name="Male">Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" value="Female">Female<br><br><br>
+                Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone<br>
+                <input type="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" maxlength="10"><br><br><br>
+                Subject<br>
+                <select aria-placeholder="choose option " selected="choose option">
+                    <option value=""telugu>Telugu</option>
+                    <option value="english">English</option>
+                    <option value="Hindhi">Hindhi</option>
+                    <option value="urdhu">urdhu</option>
+                    <option value="Tamil">Tamil</option>
+                    
+
+                </select><br><br><br>
+
+                <input type="submit" value="submit">
+            
+                
+
+
+
+            </form>
+
+        </div>
+
+
+    
+</body>
+</html> 
+
+
